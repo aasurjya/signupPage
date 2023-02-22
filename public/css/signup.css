@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  /* background-image: linear-gradient(to right top, #f2b8d7, #eab8e1, #dfbaeb, #d0bcf3, #bfbffa, #a1b7ef, #84aee2, #67a5d2, #418ead, #237688, #0f5e64, #074643); */
+  background-image: linear-gradient(to right top, #f2b8d7, #eab8e1, #dfbaeb, #d0bcf3, #bfbffa, #a5b4ed, #8caadf, #739fcf, #5385ab, #376a88, #1e5166, #073846);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.mb-4{
+  width: 100%;
+  height: auto;
+  transition-duration: 0.4s;
+  border-radius: 100% ;
+
+}
+.mb-4:hover{
+  background-color: black;
+  
+}
+.btn primary{
+  --bs-btn-hover-bg:#d7650b !important;
+}
